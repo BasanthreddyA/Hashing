@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
  
-class Main
+ class Main
 {
     // Function to find a pair in an array with a given sum using hashing
     public static int findPair(int[] nums, int target)
@@ -18,7 +18,8 @@ class Main
             }
             map.put(nums[i], i);//when there is no value we rae going to insert values into HashMap from the array
         }
-        return count; //finally number of pairs are retured
+        return count;
+     //finally number of pairs are retured
     }
  
     public static void main (String[] args)
@@ -29,8 +30,12 @@ class Main
         System.out.println(findPair(nums, target));
     }
 }
+// TC: O(n),
+//SC: O(n)
+
 
 
 
 BRUTEFORCE APPORCH:https: 
-//onlinegdb.com/9YXGHP3q-
+// source code:  https://onlinegdb.com/9YXGHP3q-
+
