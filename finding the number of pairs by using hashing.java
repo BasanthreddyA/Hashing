@@ -29,3 +29,8 @@ class Main
         System.out.println(findPair(nums, target));
     }
 }
+
+
+
+BRUTEFORCE APPORCH:https: 
+//onlinegdb.com/9YXGHP3q-
