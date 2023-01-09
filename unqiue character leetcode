@@ -4,18 +4,14 @@ public int firstUniqChar(String s) {
    for (int i=0; i<s.length(); i++) {
       int count = map.getOrDefault(s.charAt(i), 0);
       count ++;
-      map.put(s.charAt(i), count);   //ny incrementig the counting value is inserted into the map
+      map.put(s.charAt(i), count);
    }
    
    for (int i=0; i<s.length(); i++) {
-      if (map.get(s.charAt(i)) == 1) { ////when the count is equals to 1 then the index of that eemnt is returned
-         return i;//if we find unique charcter we return i;
+      if (map.get(s.charAt(i)) == 1) {
+         return i;
       }
    }
-   return -1;//else return -1
+   return -1;
 }
 }
-
-
-
-time complexity =o(n)
